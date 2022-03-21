@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting started with Reverie
+title: Торговля криптовалютами с Reverie
 permalink: /getting-started/
 ---
 
