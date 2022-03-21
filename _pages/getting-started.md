@@ -4,29 +4,54 @@ title: Getting started with Reverie
 permalink: /getting-started/
 ---
 
-### Step 1) Fork Reverie to your User Repository
+### Вступление
 
-Fork [this repository](https://github.com/amitmerchant1990/reverie), then rename the repository to `yourgithubusername.github.io`.
+Крайне важно изучить инструкцию и понять все детали.
 
-Alternatively, you can use [Use this template](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
+Торговля фьючерсами только по правилам: `5-20%` от депозита (зависит от суммы) с плечами до `х10`. Нарушение правил приведет к потери денег. 
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+Если у вас есть трудности с терминологией или техническими вопросами - вы найдете все ответы в нашем блоге. Там вы найдете обьяснения непонятных вещей для новичков, обучшение и инструкции.
 
-### Step 2) Customize and view your site
+### Что это?
 
-Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
+Это не бот, это целая серия алгоритмов разработанная нами для того, что бы торговать криптовалютами. Он написан на PineScript на платформе TradingView и запускается на ней же. Исполнения скрипта происходит на серверной стороне TradingView, а рендеринг (отрисовка графических элементов) - у вас в браузере. Это значит что все самое сложное берет на себя платформа, и для использования скрипта вам не нужно мощьное железо. 
 
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
+### Почему лучше пользоваться алгоритмом?
 
-### Step 3) Publish your first blog post
+Самая большая проблема всех трейдеров - эмоции. Мы уже прошли тот этап, когда торгуя руками мы не заходили в сделку где надо было, а выходили где не надо было. Трейдер находящийся в сделке и трейдер без сделки в данный момент - два разных, с точки зрения психики, человека. Новичкам особенно трудно справиться с эмоциями и принимать верные решения, чаще всего это заканчивается потерей средств. На помощь приходит компьютер, полностью избавляющий нас от этих проблем. Именно по-этому профи торгуют только с софтом. 
 
-Create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
+##### Режимы:
+Быстрый - таймфрейм 15 мин
+Основной - таймфрейм 45 мин
+Среднесрок - таймфрейм 4 час
+Долгосрок - таймфрейм 1 день
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+Наш инструмент очень гибкий и его можно тонко настроить для каждой монеты в отдельности. Качество настроек можно проверить на бектесте. Бектест - встроенная функция, позволяющая применить алгоритм на истории графика и узнать его эффективность. Хорошим показательем явзяется более 80% прибыльных сделок. Проще говоря, это значит что каждая 8я сделка будет в плюс. Изменяя настройки инструмента вы сразу увидите как меняется процент прибыльных сделок. Чем выше - тем лучше. Уменьшая риски можно добиться результатов более 90%. Уменьшение рисков вероятнее всего сократит количество сделок для одной монеты. Это не должно вас беспокоить потому что, к примеру, Binance предлогает более сотни криптовалют с фьючерсами, на которых можно применять наш инструмент.
 
-## Using Categories in Reverie
+### Что дальше?
 
-You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
+Что бы получить доступ к индикатору, вам нужно написать [Сюда](https://t.me/engineerios). Мы дадим вам адрес криптокошелька. Стоимость 50$ в месяц. После оплаты вы поулчите дополнительные инструкции и доступ к индикатору.
+
+Для торговли вам нужно:
+- Аккаунт на сайте [TradingView](tradingview.com). Там и будет работать софт
+- Индикатор "Reverie"
+- Аккаунт на бирже [Binance](http://binance.com)
+- Верифицировать акканут на бирже
+- Перевести средства на фьючерсны для торговли 
+
+Торговать можно и на других биржах, таких как [KuCoin](https://www.kucoin.com). Нам же больше нравиться именно Binance. Делать сделки на фьючерсах доступно как на ПК, так и в мобильном приложении. У TradingView так же есть мобильное приложение, что позволяет вообще не сидеть за монитором.
+
+Вы будете использовать фьючерсы для торговли. Это нужно для того, что бы зарабатывать как на росте, так и на падении цены. Индикатор будет подсказывать когда ставать в позицию на повышение (Long), а когда на понижение (Short) и когда закрывать сделку. Находиться в сделке можно неограниченное количество времени, однако лучше доверять индикатору и обязательно придерживаться риск-менеджменту.
+
+## Инструкции
+
+Прежде всего вам нужно вот что усвоить: Предствате себе, что вы вышли на балкон своего дома и наблюдаете как ваш сосед во дворе гуляет со своей собакой. Собака, кажется, совершенно хаотично бегает вокруг хозяина. Но через время вы замечаете, что собака всеравно возвращается к совему хозяину. Позже вы замечаете что на определенном растоянии шанс возвращения пса к хозяину увеличивается. Это очень похоже на статистикое среднеквадратическое (среднее) отклонение — наиболее распространённый показатель рассеивания значений случайной величины относительно её математического ожидания. Это одна из самых главных частей Reverie алгоритма. 
+
+На графике вы можете увидеть осциллятор. Осциллятор - система, совершающая колебания, то есть показатели которой периодически повторяются во времени, имея 0 в центре. На нем очень хорошо видно всю самую важную информаци об отклонении от 0 серии разных данных. На основе этого делается вывод о том, в какую сторону открывать сделку.
+
+Для удобства на осцеляторе графически отображаются разные пиктограммы индикатора, они позволяют проще оценить ситуацию. Так же, на самом графике отображаются пиктограммы входа и выхода из седлки.
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 For adding single category:
 
