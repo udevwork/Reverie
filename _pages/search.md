@@ -8,7 +8,7 @@ permalink: /search/
     <input type="text" id="search-input" placeholder="Search through the blog posts...">
     <ul id="results-container"></ul>
 </div>
-
+<p style="text-align: center"><button>Кнопка</button>
 <script src="{{ site.baseurl }}/assets/simple-jekyll-search.min.js" type="text/javascript"></script>
 
 <script>
