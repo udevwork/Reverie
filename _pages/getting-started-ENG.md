@@ -50,36 +50,41 @@ The indicator does not work on other coins and timeframes at the moment!
 Backtest - checking the operation of the algorithm on history to find out if the strategy was profitable. We have prepared backtests for the list of coins above. The blue zone on the chart is profit, and the red zone is drawdown.
 There have always been and will be small losses for everyone. No one sees the future, however, on such backtests, we can see that the strategy worked successfully for months and turned out to be profitable at a distance.
 
+
+###### The data below is presented with initial variables:
+- $1000 starting deposit.
+- Entrance to each meeting for 30% of the deposit
+
 #### 1INCHUSDT
-43% profit with 4% maximum loss. Profit factor: 1.65
+1114% profit with 1.8% maximum loss. Profit factor: 26.98
 [<img src="{{ site.baseurl }}/images/backtest/1INCHUSDT.png" alt="Backtest 1INCHUSDT algorithmic trading"/>]({{ site.baseurl }}/)
 
 #### ADAUSDT
-103% profit with 7% maximum loss. Profit factor: 1.5
+1253% profit with 1.2% maximum loss. Profit factor: 41.13
 [<img src="{{ site.baseurl }}/images/backtest/ADAUSDT.png" alt="ADUSDT algorithmic trading backtest"/>]({{ site.baseurl }}/)
 
 #### AXSUSDT
-160% profit with 17% maximum loss. Profit factor: 1.58
+1774% profit with 1.3% maximum loss. Profit factor: 49.6
 [<img src="{{ site.baseurl }}/images/backtest/AXSUSDT.png" alt="AXSUSDT algorithmic trading backtest"/>]({{ site.baseurl }}/)
 
 #### BNBUSDT
-53% profit with 3% maximum loss. Profit factor: 1.53
+263% profit with 0.75% maximum loss. Profit factor: 41.9
 [<img src="{{ site.baseurl }}/images/backtest/BNBUSDT.png" alt="BNBUSDT algorithmic trading backtest"/>]({{ site.baseurl }}/)
 
-####ETHUSDT
-88% profit with 4% maximum loss. Profit factor: 1.59
+#### ETHUSDT
+611% profit with 1.3% maximum loss. Profit factor: 43.2
 [<img src="{{ site.baseurl }}/images/backtest/ETHUSDT.png" alt="Backtest ETHUSDT algorithmic trading"/>]({{ site.baseurl }}/)
 
 #### ICXUSDT
-122% profit with 5% maximum loss. Profit factor: 1.97
+2500% profit with 2.8% maximum loss. Profit factor: 33.9
 [<img src="{{ site.baseurl }}/images/backtest/ICXUSDT.png" alt="ICXUSDT backtest algorithmic trading"/>]({{ site.baseurl }}/)
 
 #### KSMUSDT
-63% profit with 6% maximum loss. Profit factor: 1.46
+1468% profit with 1.6% maximum loss. Profit factor: 46.9
 [<img src="{{ site.baseurl }}/images/backtest/KSMUSDT.png" alt="Backtest KSMUSDT algorithmic trading"/>]({{ site.baseurl }}/)
 
 #### NEARUSDT
-127% profit with 10% maximum loss. Profit factor: 1.68
+2800% profit with 2.4% maximum loss. Profit factor: 52.5
 [<img src="{{ site.baseurl }}/images/backtest/NEARUSDT.png" alt="Backtest NEARUSDT algorithmic trading"/>]({{ site.baseurl }}/)
 
 ### What's next?
